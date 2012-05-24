@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/test"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+
+    <Button
+        android:id="@+id/Profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/PR" 
+        android:onClick="openProfile"/>
+
+    <Button
+        android:id="@+id/Companies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/CO" 
+        android:onClick="openCompanies"/>
+
+    <Button
+        android:id="@+id/Bank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/B" 
+        android:onClick="openBank"/>
+
+    <Button
+        android:id="@+id/Tutorial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/T"
+        android:onClick="openTutoriol" />
+
+    <Button
+        android:id="@+id/quit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="quit"
+        android:text="@string/Q" />
+
+</LinearLayout>
