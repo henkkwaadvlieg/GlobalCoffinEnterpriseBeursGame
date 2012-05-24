@@ -1,11 +1,11 @@
-package com.beursSpel;
+package com.globalcoffinenterprise.beurs;
 
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.View;
 
-public class CompanieActivity extends BaseActivity
+public class CompanyActivity extends BaseActivity
 {
 	@Override
     public void onCreate(Bundle savedInstanceState) 

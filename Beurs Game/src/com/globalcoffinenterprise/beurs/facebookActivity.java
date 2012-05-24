@@ -20,7 +20,7 @@ import android.util.Log;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class facebookActivity extends Activity implements DialogListener
+public class FacebookActivity extends Activity implements DialogListener
 {
 	private Facebook facebook;
 	private SharedPreferences mPrefs;
@@ -28,7 +28,7 @@ public class facebookActivity extends Activity implements DialogListener
 	private Handler handler;;
 	private Bitmap bmpDownload;
 	
-	public facebookActivity()
+	public FacebookActivity()
 	{
 		this.facebook = new Facebook("367455903312223");
 		this.handler = new Handler();

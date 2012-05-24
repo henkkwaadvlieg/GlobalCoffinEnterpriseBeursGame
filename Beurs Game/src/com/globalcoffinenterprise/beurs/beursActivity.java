@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
-public class beursActivity extends Activity 
+public class BeursActivity extends Activity 
 {
     /** Called when the activity is first created. */
 	
@@ -12,7 +12,7 @@ public class beursActivity extends Activity
 	public void onStart()
 	{
 		super.onStart();
-		 this.startActivity( new Intent(this, facebookActivity.class) );
+		 this.startActivity( new Intent(this, FacebookActivity.class) );
 		 this.finish();
 	}
 	

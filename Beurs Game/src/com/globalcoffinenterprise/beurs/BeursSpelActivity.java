@@ -1,4 +1,4 @@
-package com.beursSpel;
+package com.globalcoffinenterprise.beurs;
 
 import android.os.Bundle;
 import android.view.KeyEvent;
@@ -10,7 +10,7 @@ public class BeursSpelActivity extends BaseActivity
     public void onCreate(Bundle savedInstanceState) 
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setContentView(R.layout.a_main);
     }
     
     

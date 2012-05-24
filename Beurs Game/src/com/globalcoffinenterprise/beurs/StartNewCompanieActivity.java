@@ -1,4 +1,4 @@
-package com.beursSpel;
+package com.globalcoffinenterprise.beurs;
 
 import android.content.Intent;
 import android.os.Bundle;

@@ -1,4 +1,4 @@
-package com.beursSpel;
+package com.globalcoffinenterprise.beurs;
 
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
